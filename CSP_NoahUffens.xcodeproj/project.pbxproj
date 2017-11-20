@@ -14,6 +14,8 @@
 		FB736F9E1FBB6F8000B55E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB736F9D1FBB6F8000B55E88 /* Assets.xcassets */; };
 		FB736FA11FBB6F8000B55E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB736F9F1FBB6F8000B55E88 /* LaunchScreen.storyboard */; };
 		FB736FA91FBB706F00B55E88 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB736FA81FBB706F00B55E88 /* GlobalImpactViewController.swift */; };
+		FBCEC54F1FC35F5700BD052A /* Killable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCEC54E1FC35F5700BD052A /* Killable.swift */; };
+		FBCEC5521FC360BE00BD052A /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCEC5511FC360BE00BD052A /* Human.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		FB736FA01FBB6F8000B55E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB736FA21FBB6F8000B55E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB736FA81FBB706F00B55E88 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
+		FBCEC54E1FC35F5700BD052A /* Killable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Killable.swift; sourceTree = "<group>"; };
+		FBCEC5511FC360BE00BD052A /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +67,21 @@
 				FB68450D1FBB74480021C69C /* AlgorithmsViewController.swift */,
 				FB736FA81FBB706F00B55E88 /* GlobalImpactViewController.swift */,
 				FB736F9A1FBB6F8000B55E88 /* Main.storyboard */,
+				FBCEC5501FC35F7A00BD052A /* Model */,
 				FB736F9D1FBB6F8000B55E88 /* Assets.xcassets */,
 				FB736F9F1FBB6F8000B55E88 /* LaunchScreen.storyboard */,
 				FB736FA21FBB6F8000B55E88 /* Info.plist */,
 			);
 			path = CSP_NoahUffens;
+			sourceTree = "<group>";
+		};
+		FBCEC5501FC35F7A00BD052A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FBCEC54E1FC35F5700BD052A /* Killable.swift */,
+				FBCEC5511FC360BE00BD052A /* Human.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +157,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB736F991FBB6F8000B55E88 /* ViewController.swift in Sources */,
+				FBCEC5521FC360BE00BD052A /* Human.swift in Sources */,
+				FBCEC54F1FC35F5700BD052A /* Killable.swift in Sources */,
 				FB736F971FBB6F8000B55E88 /* AppDelegate.swift in Sources */,
 				FB68450E1FBB74480021C69C /* AlgorithmsViewController.swift in Sources */,
 				FB736FA91FBB706F00B55E88 /* GlobalImpactViewController.swift in Sources */,
