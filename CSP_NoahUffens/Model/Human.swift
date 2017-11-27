@@ -21,7 +21,8 @@ public class Human : Killable
         
     }
     public func isKilled() -> Bool {
-        <#code#>
+        return false
+        
     }
 }
 
