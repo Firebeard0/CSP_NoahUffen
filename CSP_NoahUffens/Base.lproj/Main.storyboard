@@ -48,7 +48,7 @@
         <!--View Controller-->
         <scene sceneID="0zo-wt-8V3">
             <objects>
-                <viewController id="QDm-Sr-Gm2" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BlockViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QDm-Sr-Gm2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dy3-Lj-NVE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,7 +83,7 @@
         <!--View Controller-->
         <scene sceneID="Rwa-Oy-4zf">
             <objects>
-                <viewController id="avQ-2W-Ods" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AndGateViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="avQ-2W-Ods" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FaW-Dm-mUB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -118,7 +118,7 @@
         <!--View Controller-->
         <scene sceneID="7Kz-8d-jPk">
             <objects>
-                <viewController id="nCP-C3-Kqw" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="JavaViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nCP-C3-Kqw" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ee9-7q-sub">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -153,7 +153,7 @@
         <!--View Controller-->
         <scene sceneID="V4S-E5-pkX">
             <objects>
-                <viewController id="KdH-qf-JfT" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SourceCodeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="KdH-qf-JfT" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SHy-k1-ksP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -188,7 +188,7 @@
         <!--View Controller-->
         <scene sceneID="UbK-Ln-vyk">
             <objects>
-                <viewController id="cqh-4j-kTi" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BinaryViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cqh-4j-kTi" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8CK-r9-haH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -219,6 +219,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="It7-oq-FAZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2431" y="-457"/>
+        </scene>
+        <!--Abstraction View Controller-->
+        <scene sceneID="82Z-8x-R1o">
+            <objects>
+                <viewController id="UL1-ZJ-Fht" customClass="AbstractionViewController" customModule="CSP_NoahUffens" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6rl-eZ-CrN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="NEJ-hZ-nc9"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zxe-QT-GH7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3686" y="-271"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">

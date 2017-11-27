@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB2997651FCC984C004A2448 /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2997641FCC984C004A2448 /* AbstractionViewController.swift */; };
 		FB68450E1FBB74480021C69C /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB68450D1FBB74480021C69C /* AlgorithmsViewController.swift */; };
 		FB736F971FBB6F8000B55E88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB736F961FBB6F8000B55E88 /* AppDelegate.swift */; };
 		FB736F991FBB6F8000B55E88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB736F981FBB6F8000B55E88 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB2997641FCC984C004A2448 /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
 		FB68450D1FBB74480021C69C /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
 		FB736F931FBB6F8000B55E88 /* CSP_NoahUffens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSP_NoahUffens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB736F961FBB6F8000B55E88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		FB736F951FBB6F8000B55E88 /* CSP_NoahUffens */ = {
 			isa = PBXGroup;
 			children = (
+				FB2997641FCC984C004A2448 /* AbstractionViewController.swift */,
 				FB736F961FBB6F8000B55E88 /* AppDelegate.swift */,
 				FB736F981FBB6F8000B55E88 /* ViewController.swift */,
 				FB68450D1FBB74480021C69C /* AlgorithmsViewController.swift */,
@@ -162,6 +165,7 @@
 				FB736F971FBB6F8000B55E88 /* AppDelegate.swift in Sources */,
 				FB68450E1FBB74480021C69C /* AlgorithmsViewController.swift in Sources */,
 				FB736FA91FBB706F00B55E88 /* GlobalImpactViewController.swift in Sources */,
+				FB2997651FCC984C004A2448 /* AbstractionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
