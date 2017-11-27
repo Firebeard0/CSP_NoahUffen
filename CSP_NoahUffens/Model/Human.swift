@@ -24,3 +24,4 @@ public class Human : Killable
         <#code#>
     }
 }
+
