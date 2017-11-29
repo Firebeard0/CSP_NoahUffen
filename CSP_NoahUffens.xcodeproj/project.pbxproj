@@ -17,6 +17,9 @@
 		FB736FA91FBB706F00B55E88 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB736FA81FBB706F00B55E88 /* GlobalImpactViewController.swift */; };
 		FBCEC54F1FC35F5700BD052A /* Killable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCEC54E1FC35F5700BD052A /* Killable.swift */; };
 		FBCEC5521FC360BE00BD052A /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCEC5511FC360BE00BD052A /* Human.swift */; };
+		FBE057011FCF366E00F77758 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE057001FCF366E00F77758 /* InternetMasterViewController.swift */; };
+		FBE057031FCF39F300F77758 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE057021FCF39F300F77758 /* InternetDetailViewController.swift */; };
+		FBE057061FCF3B9A00F77758 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE057051FCF3B9A00F77758 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		FB736FA81FBB706F00B55E88 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
 		FBCEC54E1FC35F5700BD052A /* Killable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Killable.swift; sourceTree = "<group>"; };
 		FBCEC5511FC360BE00BD052A /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
+		FBE057001FCF366E00F77758 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
+		FBE057021FCF39F300F77758 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		FBE057051FCF3B9A00F77758 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE057061FCF3B9A00F77758 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +57,7 @@
 			children = (
 				FB736F951FBB6F8000B55E88 /* CSP_NoahUffens */,
 				FB736F941FBB6F8000B55E88 /* Products */,
+				FBE057041FCF3B9A00F77758 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +77,8 @@
 				FB736F981FBB6F8000B55E88 /* ViewController.swift */,
 				FB68450D1FBB74480021C69C /* AlgorithmsViewController.swift */,
 				FB736FA81FBB706F00B55E88 /* GlobalImpactViewController.swift */,
+				FBE057001FCF366E00F77758 /* InternetMasterViewController.swift */,
+				FBE057021FCF39F300F77758 /* InternetDetailViewController.swift */,
 				FB736F9A1FBB6F8000B55E88 /* Main.storyboard */,
 				FBCEC5501FC35F7A00BD052A /* Model */,
 				FB736F9D1FBB6F8000B55E88 /* Assets.xcassets */,
@@ -85,6 +95,14 @@
 				FBCEC5511FC360BE00BD052A /* Human.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FBE057041FCF3B9A00F77758 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBE057051FCF3B9A00F77758 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +181,9 @@
 				FBCEC5521FC360BE00BD052A /* Human.swift in Sources */,
 				FBCEC54F1FC35F5700BD052A /* Killable.swift in Sources */,
 				FB736F971FBB6F8000B55E88 /* AppDelegate.swift in Sources */,
+				FBE057031FCF39F300F77758 /* InternetDetailViewController.swift in Sources */,
 				FB68450E1FBB74480021C69C /* AlgorithmsViewController.swift in Sources */,
+				FBE057011FCF366E00F77758 /* InternetMasterViewController.swift in Sources */,
 				FB736FA91FBB706F00B55E88 /* GlobalImpactViewController.swift in Sources */,
 				FB2997651FCC984C004A2448 /* AbstractionViewController.swift in Sources */,
 			);
