@@ -10,19 +10,21 @@ import UIKit
 import WebKit
 class InternetDetailViewController: UIViewController {
     
+    @IBOutlet weak var textView: UILabel!
+    @IBOutlet weak var webViewer: WKWebView!
     
-
+    var detailAdress : String?{
+        didSet {
+            configureDetailView()
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        setup()
+        configureDetailView()
         // Do any additional setup after loading the view.
     }
     
-    private func setup() -> Void
-    {
-        
-    
-    }
+    private func configure
 
 //    override func didReceiveMemoryWarning() {
 //        super.didReceiveMemoryWarning()

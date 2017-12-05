@@ -21,12 +21,27 @@ class InternetMasterViewController: UITableViewController {
         ]
     }()
     
+    private lazy var adress : [String] = []
     
     private var detailViewContoller : InternetDetailViewController?
     
     private func setup() -> Void
     {
+        adress = [
+            "https://www.google.com",
+            "https://www.google.com",
+            "https://www.google.com",
+            "https://www.google.com",
+            "https://www.google.com",
+            "https://www.google.com",
+            "https://www.google.com"
+        ]
         
+        if let splitView = splitViewController
+        {
+            let currentControllers = splitView.viewControllers
+            detailViewContoller = currentControllers[0] as? InternetDetailViewController
+        }
     }
     
     override func viewDidLoad() {
@@ -54,6 +69,17 @@ class InternetMasterViewController: UITableViewController {
         cell.textLabel!.text = currentText
         
         return cell
+    }
+    
+    override  public func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier! == "showDetail"
+        {
+            if let indexPath = self.tableView.indexPathForSelectedRow
+            {
+                let urlString = adresses[indexPath.now]
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
