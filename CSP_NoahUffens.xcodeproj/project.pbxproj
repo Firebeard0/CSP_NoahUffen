@@ -15,6 +15,7 @@
 		FB736F9E1FBB6F8000B55E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB736F9D1FBB6F8000B55E88 /* Assets.xcassets */; };
 		FB736FA11FBB6F8000B55E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB736F9F1FBB6F8000B55E88 /* LaunchScreen.storyboard */; };
 		FB736FA91FBB706F00B55E88 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB736FA81FBB706F00B55E88 /* GlobalImpactViewController.swift */; };
+		FBA07DA21FD72A890028AFF5 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA07DA11FD72A890028AFF5 /* DrawingView.swift */; };
 		FBCEC54F1FC35F5700BD052A /* Killable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCEC54E1FC35F5700BD052A /* Killable.swift */; };
 		FBCEC5521FC360BE00BD052A /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCEC5511FC360BE00BD052A /* Human.swift */; };
 		FBE057011FCF366E00F77758 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE057001FCF366E00F77758 /* InternetMasterViewController.swift */; };
@@ -33,6 +34,7 @@
 		FB736FA01FBB6F8000B55E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB736FA21FBB6F8000B55E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB736FA81FBB706F00B55E88 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
+		FBA07DA11FD72A890028AFF5 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		FBCEC54E1FC35F5700BD052A /* Killable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Killable.swift; sourceTree = "<group>"; };
 		FBCEC5511FC360BE00BD052A /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
 		FBE057001FCF366E00F77758 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
@@ -72,20 +74,37 @@
 		FB736F951FBB6F8000B55E88 /* CSP_NoahUffens */ = {
 			isa = PBXGroup;
 			children = (
-				FB2997641FCC984C004A2448 /* AbstractionViewController.swift */,
-				FB736F961FBB6F8000B55E88 /* AppDelegate.swift */,
-				FB736F981FBB6F8000B55E88 /* ViewController.swift */,
-				FB68450D1FBB74480021C69C /* AlgorithmsViewController.swift */,
-				FB736FA81FBB706F00B55E88 /* GlobalImpactViewController.swift */,
-				FBE057001FCF366E00F77758 /* InternetMasterViewController.swift */,
-				FBE057021FCF39F300F77758 /* InternetDetailViewController.swift */,
-				FB736F9A1FBB6F8000B55E88 /* Main.storyboard */,
+				FBA07DA51FD72AC10028AFF5 /* Controlller */,
+				FBA07DA31FD72AA20028AFF5 /* View */,
 				FBCEC5501FC35F7A00BD052A /* Model */,
 				FB736F9D1FBB6F8000B55E88 /* Assets.xcassets */,
 				FB736F9F1FBB6F8000B55E88 /* LaunchScreen.storyboard */,
 				FB736FA21FBB6F8000B55E88 /* Info.plist */,
 			);
 			path = CSP_NoahUffens;
+			sourceTree = "<group>";
+		};
+		FBA07DA31FD72AA20028AFF5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB736F9A1FBB6F8000B55E88 /* Main.storyboard */,
+				FBA07DA11FD72A890028AFF5 /* DrawingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FBA07DA51FD72AC10028AFF5 /* Controlller */ = {
+			isa = PBXGroup;
+			children = (
+				FBE057021FCF39F300F77758 /* InternetDetailViewController.swift */,
+				FBE057001FCF366E00F77758 /* InternetMasterViewController.swift */,
+				FB736FA81FBB706F00B55E88 /* GlobalImpactViewController.swift */,
+				FB68450D1FBB74480021C69C /* AlgorithmsViewController.swift */,
+				FB736F981FBB6F8000B55E88 /* ViewController.swift */,
+				FB736F961FBB6F8000B55E88 /* AppDelegate.swift */,
+				FB2997641FCC984C004A2448 /* AbstractionViewController.swift */,
+			);
+			path = Controlller;
 			sourceTree = "<group>";
 		};
 		FBCEC5501FC35F7A00BD052A /* Model */ = {
@@ -184,6 +203,7 @@
 				FBE057031FCF39F300F77758 /* InternetDetailViewController.swift in Sources */,
 				FB68450E1FBB74480021C69C /* AlgorithmsViewController.swift in Sources */,
 				FBE057011FCF366E00F77758 /* InternetMasterViewController.swift in Sources */,
+				FBA07DA21FD72A890028AFF5 /* DrawingView.swift in Sources */,
 				FB736FA91FBB706F00B55E88 /* GlobalImpactViewController.swift in Sources */,
 				FB2997651FCC984C004A2448 /* AbstractionViewController.swift in Sources */,
 			);

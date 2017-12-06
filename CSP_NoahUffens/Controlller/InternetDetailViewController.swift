@@ -24,7 +24,14 @@ class InternetDetailViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    private func configure
+    private func configureDetailView() -> Void {
+        if detailAdress != nil {
+            if let currentWebView = webViewer{
+                let currentURL = URL(string: detailAdress!)
+                let currentWebRequest
+            }
+        }
+    }
 
 //    override func didReceiveMemoryWarning() {
 //        super.didReceiveMemoryWarning()

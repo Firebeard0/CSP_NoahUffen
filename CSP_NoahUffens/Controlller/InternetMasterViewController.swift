@@ -77,7 +77,12 @@ class InternetMasterViewController: UITableViewController {
         {
             if let indexPath = self.tableView.indexPathForSelectedRow
             {
-                let urlString = adresses[indexPath.now]
+                let urlString = adresses[indexPath.row]
+                let pageText: String
+                if indexPath.row == 0
+                {
+                    pageText + "definitions i wrote"
+                }
             }
         }
     }
