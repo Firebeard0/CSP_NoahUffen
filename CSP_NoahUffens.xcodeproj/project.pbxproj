@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB155AFF1FD9C2EA006579BC /* CreativityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB155AFE1FD9C2EA006579BC /* CreativityController.swift */; };
 		FB2997651FCC984C004A2448 /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2997641FCC984C004A2448 /* AbstractionViewController.swift */; };
 		FB68450E1FBB74480021C69C /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB68450D1FBB74480021C69C /* AlgorithmsViewController.swift */; };
 		FB736F971FBB6F8000B55E88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB736F961FBB6F8000B55E88 /* AppDelegate.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB155AFE1FD9C2EA006579BC /* CreativityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityController.swift; sourceTree = "<group>"; };
 		FB2997641FCC984C004A2448 /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
 		FB68450D1FBB74480021C69C /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
 		FB736F931FBB6F8000B55E88 /* CSP_NoahUffens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSP_NoahUffens.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +105,7 @@
 				FB736F981FBB6F8000B55E88 /* ViewController.swift */,
 				FB736F961FBB6F8000B55E88 /* AppDelegate.swift */,
 				FB2997641FCC984C004A2448 /* AbstractionViewController.swift */,
+				FB155AFE1FD9C2EA006579BC /* CreativityController.swift */,
 			);
 			path = Controlller;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				FBCEC54F1FC35F5700BD052A /* Killable.swift in Sources */,
 				FB736F971FBB6F8000B55E88 /* AppDelegate.swift in Sources */,
 				FBE057031FCF39F300F77758 /* InternetDetailViewController.swift in Sources */,
+				FB155AFF1FD9C2EA006579BC /* CreativityController.swift in Sources */,
 				FB68450E1FBB74480021C69C /* AlgorithmsViewController.swift in Sources */,
 				FBE057011FCF366E00F77758 /* InternetMasterViewController.swift in Sources */,
 				FBA07DA21FD72A890028AFF5 /* DrawingView.swift in Sources */,
