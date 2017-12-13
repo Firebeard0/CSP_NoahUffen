@@ -18,6 +18,11 @@ class InternetDetailViewController: UIViewController {
             configureDetailView()
         }
     }
+    var detailText : String?{
+        didSet {
+            configureDetailView()
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         configureDetailView()
@@ -28,7 +33,32 @@ class InternetDetailViewController: UIViewController {
         if detailAdress != nil {
             if let currentWebView = webViewer{
                 let currentURL = URL(string: detailAdress!)
-                let currentWebRequest
+                let currentWebRequest = URLRequest(url: currentURL!)
+                currentWebView.load(currentWebRequest)
+            }
+        }
+        else
+        {
+            if let currentWebView = webViewer
+            {
+                let currentURL = URL(string: "https:/www.thebomb.com")
+                currentWebView.load(URLRequest(url:currentURL!))
+            }
+        }
+        if detailText != nil
+        {
+            if let currentText = textView
+            {
+                currentText.text = detailText
+            }
+            
+        }
+        else
+        
+        {
+            if let currentText = textView
+            {
+                currentText.text = "Noah's CSP app internet Screen"
             }
         }
     }

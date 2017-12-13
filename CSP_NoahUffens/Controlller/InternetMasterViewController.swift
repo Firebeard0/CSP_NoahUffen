@@ -28,13 +28,12 @@ class InternetMasterViewController: UITableViewController {
     private func setup() -> Void
     {
         adress = [
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com"
+            "https://www.urbandictionary.com/",
+            "https://apstudent.collegeboard.org/apcourse/ap-computer-science-a",
+            "https://ctec.canyonsdistrict.org/",
+            "https://skyward.canyonsdistrict.org",
+            "https://twitter.com",
+            "https://www.linkedin.com/premium/plan/learning/guest?categoryId=5904&categoryCollection=developer&hero=10&src=go-pa&veh=sem_src.go-pa_c.google-lil-sem-prs-b2c-gbl-eng-alpha-b2-dev-swift_pkw.swift%20guide_pmt.e_pcrid.231586068454_pdv.c_plc._trg._net.g_learning&trk=sem_src.go-pa_c.google-lil-sem-prs-b2c-gbl-eng-alpha-b2-dev-swift_pkw.swift%20guide_pmt.e_pcrid.231586068454_pdv.c_plc._trg._net.g_learning&gclid=EAIaIQobChMItNKIq96C2AIVWG1-Ch0a9g_hEAAYASAAEgIjaPD_BwE"
         ]
         
         if let splitView = splitViewController
@@ -77,12 +76,23 @@ class InternetMasterViewController: UITableViewController {
         {
             if let indexPath = self.tableView.indexPathForSelectedRow
             {
-                let urlString = adresses[indexPath.row]
+                let urlString = adress[indexPath.row]
                 let pageText: String
                 if indexPath.row == 0
                 {
-                    pageText + "definitions i wrote"
+                    pageText = "definitions i wrote......."
                 }
+                else
+                {
+                    pageText = internetTopics[indexPath.row]
+                }
+                
+                let controller = segue.destination as! InternetDetailViewController
+                
+                controller.detailAdress = urlString
+                controller.detailText = pageText
+                controller.navigationItem.leftBarButtonItem=splitViewController?.displayModeButtonItem
+                controller.navigationItem.leftItemsSupplementBackButton = true
             }
         }
     }

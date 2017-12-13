@@ -27,7 +27,7 @@ public class DrawingView: UIView {
         stickFigure.move(to: CGPoint(x: 180, y: 240))
         stickFigure.addLine(to: CGPoint(x: 220, y: 240))
         stickFigure.move(to: CGPoint(x: 200, y: 270))
-        stickFigure.addLine(to: CGPoint(x:180, y: 300))
+        stickFigure.addLine(to: CGPoint(x: 180, y: 300))
         stickFigure.move(to: CGPoint(x: 200, y: 270))
         stickFigure.addLine(to: CGPoint(x:  220, y: 300))
         
@@ -36,7 +36,7 @@ public class DrawingView: UIView {
     }
     
     private func happyTree() -> Void{
-        let batman = UIBezierPath
+        _ = UIBezierPath()
         
         
         
