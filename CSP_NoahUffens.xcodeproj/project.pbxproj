@@ -17,6 +17,7 @@
 		FB736F9E1FBB6F8000B55E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB736F9D1FBB6F8000B55E88 /* Assets.xcassets */; };
 		FB736FA11FBB6F8000B55E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB736F9F1FBB6F8000B55E88 /* LaunchScreen.storyboard */; };
 		FB736FA91FBB706F00B55E88 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB736FA81FBB706F00B55E88 /* GlobalImpactViewController.swift */; };
+		FB9CEB591FE9A4B00027A6FF /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9CEB581FE9A4B00027A6FF /* DeathScene.swift */; };
 		FBA07DA21FD72A890028AFF5 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA07DA11FD72A890028AFF5 /* DrawingView.swift */; };
 		FBB4C2CC1FE1AB9E00AEBE9B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4C2C91FE1AB9C00AEBE9B /* GameScene.swift */; };
 		FBB4C2CD1FE1AB9E00AEBE9B /* LevelCompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4C2CA1FE1AB9D00AEBE9B /* LevelCompleteScene.swift */; };
@@ -54,6 +55,7 @@
 		FB736FA01FBB6F8000B55E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB736FA21FBB6F8000B55E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB736FA81FBB706F00B55E88 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
+		FB9CEB581FE9A4B00027A6FF /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
 		FBA07DA11FD72A890028AFF5 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		FBB4C2C91FE1AB9C00AEBE9B /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		FBB4C2CA1FE1AB9D00AEBE9B /* LevelCompleteScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelCompleteScene.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				FBB4C2C91FE1AB9C00AEBE9B /* GameScene.swift */,
 				FBB4C2CA1FE1AB9D00AEBE9B /* LevelCompleteScene.swift */,
 				FBB4C2CB1FE1AB9D00AEBE9B /* StartScene.swift */,
+				FB9CEB581FE9A4B00027A6FF /* DeathScene.swift */,
 			);
 			path = GameController;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				FBCEC54F1FC35F5700BD052A /* Killable.swift in Sources */,
 				FB736F971FBB6F8000B55E88 /* AppDelegate.swift in Sources */,
 				FBE057031FCF39F300F77758 /* InternetDetailViewController.swift in Sources */,
+				FB9CEB591FE9A4B00027A6FF /* DeathScene.swift in Sources */,
 				FBB4C2EE1FE1AF7800AEBE9B /* Projectile.swift in Sources */,
 				FBB4C2CE1FE1AB9E00AEBE9B /* StartScene.swift in Sources */,
 				FB155AFF1FD9C2EA006579BC /* CreativityController.swift in Sources */,
@@ -439,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X77K8LBKTS;
 				INFOPLIST_FILE = "$(SRCROOT)/CSP_NoahUffens/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.CSP-NoahUffens";
@@ -453,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X77K8LBKTS;
 				INFOPLIST_FILE = "$(SRCROOT)/CSP_NoahUffens/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.CSP-NoahUffens";
